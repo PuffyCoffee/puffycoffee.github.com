@@ -31,4 +31,42 @@
     
   </entry>
   
+  <entry>
+    <title><![CDATA[Sacramento]]></title>
+    <link href="http://pengzhang.me/2013/08/25/Sacramento/"/>
+    <id>http://pengzhang.me/2013/08/25/Sacramento/</id>
+    <published>2013-08-26T05:20:40.000Z</published>
+    <updated>2015-08-31T05:23:33.000Z</updated>
+    <content type="html"><![CDATA[<p>My first Sacramento Public Library visit.</p>
+<p><img src="http://res.cloudinary.com/peng/image/upload/v1440998208/Sac1_uxavx3.jpg" alt="Sacramento Downtown"></p>
+<p><img src="http://res.cloudinary.com/peng/image/upload/v1440998207/Sac2_qrugdj.jpg" alt="Sacramento Downtown_2"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>My first Sacramento Public Library visit.</p>
+<p><img src="http://res.cloudinary.com/peng/image/upload/v1440998208/Sac1_uxavx3.jpg" alt="]]>
+    </summary>
+    
+      <category term="life" scheme="http://pengzhang.me/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Standford]]></title>
+    <link href="http://pengzhang.me/2013/08/17/Standford/"/>
+    <id>http://pengzhang.me/2013/08/17/Standford/</id>
+    <published>2013-08-17T18:17:33.000Z</published>
+    <updated>2015-08-31T05:16:04.000Z</updated>
+    <content type="html"><![CDATA[<p>Took a short trip to Standford University, beautiful campus, beautiful day.</p>
+<p><img src="http://res.cloudinary.com/peng/image/upload/v1440994568/stanford_d0rcft.jpg" alt="Standford_1"></p>
+<p><img src="http://res.cloudinary.com/peng/image/upload/v1440994568/stanford2_otpl7n.jpg" alt="Standford_2"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Took a short trip to Standford University, beautiful campus, beautiful day.</p>
+<p><img src="http://res.cloudinary.com/peng/image/upload/]]>
+    </summary>
+    
+      <category term="life" scheme="http://pengzhang.me/tags/life/"/>
+    
+  </entry>
+  
 </feed>
