@@ -32,11 +32,30 @@
   </entry>
   
   <entry>
+    <title><![CDATA[Sunset]]></title>
+    <link href="http://pengzhang.me/2013/09/01/Sunset/"/>
+    <id>http://pengzhang.me/2013/09/01/Sunset/</id>
+    <published>2013-09-02T05:37:22.000Z</published>
+    <updated>2015-08-31T05:44:49.000Z</updated>
+    <content type="html"><![CDATA[<p>After spending afternoon in <a href="http://barnesandnoble.com" target="_blank" rel="external">Barnes &amp; Noble</a>, I happened to catch this beautiful sunset in North Sacramento.</p>
+<p><img src="http://res.cloudinary.com/peng/image/upload/v1440999626/sunset_w6nh0i.jpg" alt="Sunset"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>After spending afternoon in <a href="http://barnesandnoble.com" target="_blank" rel="external">Barnes &amp; Noble</a>, I happened to catc]]>
+    </summary>
+    
+      <category term="sunset" scheme="http://pengzhang.me/tags/sunset/"/>
+    
+      <category term="Life" scheme="http://pengzhang.me/categories/Life/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Sacramento]]></title>
     <link href="http://pengzhang.me/2013/08/25/Sacramento/"/>
     <id>http://pengzhang.me/2013/08/25/Sacramento/</id>
     <published>2013-08-26T05:20:40.000Z</published>
-    <updated>2015-08-31T05:23:33.000Z</updated>
+    <updated>2015-08-31T05:48:14.000Z</updated>
     <content type="html"><![CDATA[<p>My first Sacramento Public Library visit.</p>
 <p><img src="http://res.cloudinary.com/peng/image/upload/v1440998208/Sac1_uxavx3.jpg" alt="Sacramento Downtown"></p>
 <p><img src="http://res.cloudinary.com/peng/image/upload/v1440998207/Sac2_qrugdj.jpg" alt="Sacramento Downtown_2"></p>
@@ -46,7 +65,9 @@
 <p><img src="http://res.cloudinary.com/peng/image/upload/v1440998208/Sac1_uxavx3.jpg" alt="]]>
     </summary>
     
-      <category term="life" scheme="http://pengzhang.me/tags/life/"/>
+      <category term="Sacramento" scheme="http://pengzhang.me/tags/Sacramento/"/>
+    
+      <category term="Life" scheme="http://pengzhang.me/categories/Life/"/>
     
   </entry>
   
@@ -55,7 +76,7 @@
     <link href="http://pengzhang.me/2013/08/17/Standford/"/>
     <id>http://pengzhang.me/2013/08/17/Standford/</id>
     <published>2013-08-17T18:17:33.000Z</published>
-    <updated>2015-08-31T05:16:04.000Z</updated>
+    <updated>2015-08-31T05:46:41.000Z</updated>
     <content type="html"><![CDATA[<p>Took a short trip to Standford University, beautiful campus, beautiful day.</p>
 <p><img src="http://res.cloudinary.com/peng/image/upload/v1440994568/stanford_d0rcft.jpg" alt="Standford_1"></p>
 <p><img src="http://res.cloudinary.com/peng/image/upload/v1440994568/stanford2_otpl7n.jpg" alt="Standford_2"></p>
@@ -65,7 +86,37 @@
 <p><img src="http://res.cloudinary.com/peng/image/upload/]]>
     </summary>
     
-      <category term="life" scheme="http://pengzhang.me/tags/life/"/>
+      <category term="Standford" scheme="http://pengzhang.me/tags/Standford/"/>
+    
+      <category term="travel" scheme="http://pengzhang.me/tags/travel/"/>
+    
+      <category term="Life" scheme="http://pengzhang.me/categories/Life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Whiteboard]]></title>
+    <link href="http://pengzhang.me/2012/10/20/Whiteboard/"/>
+    <id>http://pengzhang.me/2012/10/20/Whiteboard/</id>
+    <published>2012-10-20T19:59:41.000Z</published>
+    <updated>2015-08-31T06:14:04.000Z</updated>
+    <content type="html"><![CDATA[<p>This small vector based widgets is a Raphael plugin, it helps you draw stuff on your page.</p>
+<p>Use it by including the code below in your JavaScript.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> paper = Raphael(<span class="string">'wrapper'</span>,&#123;</span><br><span class="line">	width:<span class="string">"100%"</span>,</span><br><span class="line">	height:<span class="string">"100%"</span></span><br><span class="line">&#125;);</span><br><span class="line">paper.editing = <span class="literal">true</span>;</span><br></pre></td></tr></table></figure>
+<p>Download it <a href="https://github.com/PuffyCoffee/webcanvas" target="_blank" rel="external">here</a> on Github</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>This small vector based widgets is a Raphael plugin, it helps you draw stuff on your page.</p>
+<p>Use it by including the code below in y]]>
+    </summary>
+    
+      <category term="JavaScript" scheme="http://pengzhang.me/tags/JavaScript/"/>
+    
+      <category term="Rephael" scheme="http://pengzhang.me/tags/Rephael/"/>
+    
+      <category term="widgets" scheme="http://pengzhang.me/tags/widgets/"/>
+    
+      <category term="Programming" scheme="http://pengzhang.me/categories/Programming/"/>
     
   </entry>
   
