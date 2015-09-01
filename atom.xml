@@ -95,11 +95,38 @@
   </entry>
   
   <entry>
+    <title><![CDATA[3D Pie Chart]]></title>
+    <link href="http://pengzhang.me/2012/10/28/3D-Pie-Chart/"/>
+    <id>http://pengzhang.me/2012/10/28/3D-Pie-Chart/</id>
+    <published>2012-10-28T20:02:03.000Z</published>
+    <updated>2015-09-01T06:07:38.000Z</updated>
+    <content type="html"><![CDATA[<p>An easy to use pie/doughnut chart.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Raphael(<span class="string">'canvas'</span>, <span class="number">700</span>, <span class="number">500</span>).pie(&#123;</span><br><span class="line">    values: [<span class="number">87</span>, <span class="number">134</span>, <span class="number">83</span>, <span class="number">23</span>, <span class="number">98</span>],</span><br><span class="line">    colors: [<span class="string">"#00ff00"</span>, <span class="string">"#ff0011"</span>, <span class="string">"#faf600"</span>, <span class="string">"#0079fa"</span>, <span class="string">"#fa8500"</span>],</span><br><span class="line">    tooltip: [<span class="string">"January - 87"</span>, <span class="string">"Feburary - 136"</span>, <span class="string">"March - 77"</span>, <span class="string">"April - 120"</span>,<span class="string">"May - 34"</span>],</span><br><span class="line">    doughnut: <span class="literal">true</span>,</span><br><span class="line">    radius: <span class="number">200</span>,</span><br><span class="line">    chartTitle: <span class="string">"Monthly Payment"</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<p>Find more details on <a href="https://github.com/PuffyCoffee/3D-Pie-chart" target="_blank" rel="external">Github</a></p>
+<p><img src="http://res.cloudinary.com/peng/image/upload/v1441087258/pie_h4nzh9.png" alt="Pie"></p>
+<p><img src="http://res.cloudinary.com/peng/image/upload/v1441087259/doughnut_ukkvsm.png" alt="Doughnut"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>An easy to use pie/doughnut chart.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><sp]]>
+    </summary>
+    
+      <category term="JavaScript" scheme="http://pengzhang.me/tags/JavaScript/"/>
+    
+      <category term="Raphael" scheme="http://pengzhang.me/tags/Raphael/"/>
+    
+      <category term="widgets" scheme="http://pengzhang.me/tags/widgets/"/>
+    
+      <category term="Programming" scheme="http://pengzhang.me/categories/Programming/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Whiteboard]]></title>
     <link href="http://pengzhang.me/2012/10/20/Whiteboard/"/>
     <id>http://pengzhang.me/2012/10/20/Whiteboard/</id>
     <published>2012-10-20T19:59:41.000Z</published>
-    <updated>2015-08-31T06:14:04.000Z</updated>
+    <updated>2015-09-01T06:08:33.000Z</updated>
     <content type="html"><![CDATA[<p>This small vector based widgets is a Raphael plugin, it helps you draw stuff on your page.</p>
 <p>Use it by including the code below in your JavaScript.</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> paper = Raphael(<span class="string">'wrapper'</span>,&#123;</span><br><span class="line">	width:<span class="string">"100%"</span>,</span><br><span class="line">	height:<span class="string">"100%"</span></span><br><span class="line">&#125;);</span><br><span class="line">paper.editing = <span class="literal">true</span>;</span><br></pre></td></tr></table></figure>
@@ -112,7 +139,7 @@
     
       <category term="JavaScript" scheme="http://pengzhang.me/tags/JavaScript/"/>
     
-      <category term="Rephael" scheme="http://pengzhang.me/tags/Rephael/"/>
+      <category term="Raphael" scheme="http://pengzhang.me/tags/Raphael/"/>
     
       <category term="widgets" scheme="http://pengzhang.me/tags/widgets/"/>
     
