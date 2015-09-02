@@ -95,6 +95,34 @@
   </entry>
   
   <entry>
+    <title><![CDATA[Dial gauge]]></title>
+    <link href="http://pengzhang.me/2012/12/01/Dial-gauge/"/>
+    <id>http://pengzhang.me/2012/12/01/Dial-gauge/</id>
+    <published>2012-12-02T06:39:40.000Z</published>
+    <updated>2015-09-02T05:45:58.000Z</updated>
+    <content type="html"><![CDATA[<p>Dial gauge is a lovely widget powered by <a href="http://raphaeljs.com/" target="_blank" rel="external">Raphael</a>, it can be used as a value indicator on web page. Thanks to <a href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics" target="_blank" rel="external">SVG</a> and Raphael, Dial gauge looks gorgeous on high resolution devices such as MacBook Pro with Retina display and iphone4+. Deploying dial gauge only takes few lines of code.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> dial = Raphael(<span class="string">'gauge'</span>, <span class="number">370</span>, <span class="number">370</span>).dialGauge(&#123;</span><br><span class="line">    div: <span class="built_in">document</span>.getElementById(<span class="string">'gauge'</span>),</span><br><span class="line">    unit: <span class="string">'ms'</span>,</span><br><span class="line">    min: <span class="number">0</span>,</span><br><span class="line">    max: <span class="number">500</span>,</span><br><span class="line">    skin: <span class="string">'CRISP_WHITE'</span>,</span><br><span class="line">    thresholds: &#123;</span><br><span class="line">        values: [<span class="number">250</span>, <span class="number">400</span>, <span class="number">500</span>],</span><br><span class="line">        colors: [<span class="string">'#2ffff2f'</span>, <span class="string">'#ffff63'</span>, <span class="string">'#ff3939'</span>]</span><br><span class="line">    &#125;,</span><br><span class="line">    alert: <span class="number">400</span></span><br><span class="line">&#125;);</span><br><span class="line">dial.instance.pointAt(<span class="number">300</span>);</span><br><span class="line">dial.instance.changeSkin(<span class="string">"CLEAN_BLACK"</span>);</span><br></pre></td></tr></table></figure>
+<p>Check out Dial gauge <a href="https://github.com/PuffyCoffee/DialGauge" target="_blank" rel="external">here</a>.</p>
+<p><img src="http://res.cloudinary.com/peng/image/upload/v1441172215/dial_wht_key1ds.png" alt="Dial White"></p>
+<p><img src="http://res.cloudinary.com/peng/image/upload/v1441172216/dial_blk_jnwa2q.png" alt="Dial Black"></p>
+<p><img src="http://res.cloudinary.com/peng/image/upload/v1441172215/dial_simple_wht_j1yb2r.png" alt="Dial White Simple"></p>
+<p><img src="http://res.cloudinary.com/peng/image/upload/v1441172216/dial_simple_blk_wfzyth.png" alt="Dial Black Simple"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Dial gauge is a lovely widget powered by <a href="http://raphaeljs.com/" target="_blank" rel="external">Raphael</a>, it can be used as a ]]>
+    </summary>
+    
+      <category term="JavaScript" scheme="http://pengzhang.me/tags/JavaScript/"/>
+    
+      <category term="Raphael" scheme="http://pengzhang.me/tags/Raphael/"/>
+    
+      <category term="widgets" scheme="http://pengzhang.me/tags/widgets/"/>
+    
+      <category term="Programming" scheme="http://pengzhang.me/categories/Programming/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[3D Pie Chart]]></title>
     <link href="http://pengzhang.me/2012/10/28/3D-Pie-Chart/"/>
     <id>http://pengzhang.me/2012/10/28/3D-Pie-Chart/</id>
