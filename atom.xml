@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://pengzhang.me/"/>
-  <updated>2015-09-06T19:54:46.000Z</updated>
+  <updated>2015-09-10T06:08:01.000Z</updated>
   <id>http://pengzhang.me/</id>
   
   <author>
@@ -13,6 +13,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Bring GRUB menu back]]></title>
+    <link href="http://pengzhang.me/2015/09/09/Bring-GRUB-menu-back/"/>
+    <id>http://pengzhang.me/2015/09/09/Bring-GRUB-menu-back/</id>
+    <published>2015-09-10T05:24:50.000Z</published>
+    <updated>2015-09-10T06:08:01.000Z</updated>
+    <content type="html"><![CDATA[<p>I installed Ubuntu over Windows 8 on my laptop (<em>ASUS UX305</em>), never had any problems until Windows “secretly” updated itself and probably allowed ASUS to updates <strong>UEFI</strong>, GRUB menu disappeared when I tried to boot into Ubuntu tonight. I searched on Google and figured out why my GRUB boot menu disappeared on me, however, there were not too many easy solutions. Some people suggested reinstall Windows/Ubuntu, some people suggested repair boot via original USB drive that you used to install guest OS. What I need is to keep my Ubuntu, simply because I have too many projects on it, and I cannot find my bootable USB stick.</p>
+<p>The Simple way I found to solve this problem is:</p>
+<ul>
+<li>Disable Windows fast boot(Check <a href="http://superuser.com/questions/957081/how-to-enable-disable-fast-startup-in-windows-10" target="_blank" rel="external">here</a> for how to).</li>
+<li>Reboot Windows8 while holding your <strong>shift</strong> key, do not let go <strong>shift</strong> until you are in UEFI. Another way to do this is pressing <strong>ESC</strong> when you see your laptop brand logo.</li>
+<li>Switching tab to <strong>boot</strong> in UEFI and check boot priority, select <strong>Create a new one</strong>, type in name and path(path can be found in one of your partitions, if you have properly installed GRUB before, it’s not difficult to find grub.efi or something similiar). Hit <strong>enter</strong> on <strong>save</strong>, then navigate to <strong>save config and exit</strong>, hit <strong>enter</strong> again.</li>
+</ul>
+<p>Your GRUB menu should show up again.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>I installed Ubuntu over Windows 8 on my laptop (<em>ASUS UX305</em>), never had any problems until Windows “secretly” updated itself and ]]>
+    </summary>
+    
+      <category term="GRUB" scheme="http://pengzhang.me/tags/GRUB/"/>
+    
+      <category term="Ubuntu" scheme="http://pengzhang.me/tags/Ubuntu/"/>
+    
+      <category term="Windows" scheme="http://pengzhang.me/tags/Windows/"/>
+    
+      <category term="System" scheme="http://pengzhang.me/categories/System/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Beautiful cloud]]></title>

@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Peng Zhang">
-    <title>Standford - Peng Zhang</title>
+    <title>Bring GRUB menu back - Peng Zhang</title>
     <meta name="author" content="Peng Zhang">
     
         <link rel="icon" href="/assets/images/favicon.ico">
@@ -14,18 +14,16 @@
     
         <link rel="alternative" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="Took a short trip to Standford University, beautiful campus, beautiful day.">
+    <meta name="description" content="I installed Ubuntu over Windows 8 on my laptop (ASUS UX305), never had any problems until Windows “secretly” updated itself and probably allowed ASUS to updates UEFI, GRUB menu disappeared when I trie">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="Standford">
-<meta property="og:url" content="http://pengzhang.me/2013/08/17/Standford/index.html">
+<meta property="og:title" content="Bring GRUB menu back">
+<meta property="og:url" content="http://pengzhang.me/2015/09/09/Bring-GRUB-menu-back/index.html">
 <meta property="og:site_name" content="Peng Zhang">
-<meta property="og:description" content="Took a short trip to Standford University, beautiful campus, beautiful day.">
-<meta property="og:image" content="http://res.cloudinary.com/peng/image/upload/v1440994568/stanford_d0rcft.jpg">
-<meta property="og:image" content="http://res.cloudinary.com/peng/image/upload/v1440994568/stanford2_otpl7n.jpg">
-<meta property="og:updated_time" content="2015-09-06T19:43:22.000Z">
+<meta property="og:description" content="I installed Ubuntu over Windows 8 on my laptop (ASUS UX305), never had any problems until Windows “secretly” updated itself and probably allowed ASUS to updates UEFI, GRUB menu disappeared when I trie">
+<meta property="og:updated_time" content="2015-09-10T06:08:01.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Standford">
-<meta name="twitter:description" content="Took a short trip to Standford University, beautiful campus, beautiful day.">
+<meta name="twitter:title" content="Bring GRUB menu back">
+<meta name="twitter:description" content="I installed Ubuntu over Windows 8 on my laptop (ASUS UX305), never had any problems until Windows “secretly” updated itself and probably allowed ASUS to updates UEFI, GRUB menu disappeared when I trie">
 <meta name="twitter:creator" content="@risusmentum">
     
     
@@ -164,19 +162,19 @@
         <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title" itemprop="headline">
-            Standford
+            Bring GRUB menu back
         </h1>
     
     <div class="post-meta">
-    <time itemprop="datePublished" content="Sat Aug 17 2013 11:17:33 GMT-0700">
+    <time itemprop="datePublished" content="Wed Sep 09 2015 22:24:50 GMT-0700">
 	
-		    Aug 17, 2013
+		    Sep 09, 2015
     	
     </time>
     
         <span>in </span>
         
-    <a class="category-link" href="/categories/Life/">Life</a>
+    <a class="category-link" href="/categories/System/">System</a>
 
 
     
@@ -185,9 +183,14 @@
     
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <p>Took a short trip to Standford University, beautiful campus, beautiful day.</p>
-<p><img src="http://res.cloudinary.com/peng/image/upload/v1440994568/stanford_d0rcft.jpg" alt="Standford_1"></p>
-<p><img src="http://res.cloudinary.com/peng/image/upload/v1440994568/stanford2_otpl7n.jpg" alt="Standford_2"></p>
+            <p>I installed Ubuntu over Windows 8 on my laptop (<em>ASUS UX305</em>), never had any problems until Windows “secretly” updated itself and probably allowed ASUS to updates <strong>UEFI</strong>, GRUB menu disappeared when I tried to boot into Ubuntu tonight. I searched on Google and figured out why my GRUB boot menu disappeared on me, however, there were not too many easy solutions. Some people suggested reinstall Windows/Ubuntu, some people suggested repair boot via original USB drive that you used to install guest OS. What I need is to keep my Ubuntu, simply because I have too many projects on it, and I cannot find my bootable USB stick.</p>
+<p>The Simple way I found to solve this problem is:</p>
+<ul>
+<li>Disable Windows fast boot(Check <a href="http://superuser.com/questions/957081/how-to-enable-disable-fast-startup-in-windows-10" target="_blank" rel="external">here</a> for how to).</li>
+<li>Reboot Windows8 while holding your <strong>shift</strong> key, do not let go <strong>shift</strong> until you are in UEFI. Another way to do this is pressing <strong>ESC</strong> when you see your laptop brand logo.</li>
+<li>Switching tab to <strong>boot</strong> in UEFI and check boot priority, select <strong>Create a new one</strong>, type in name and path(path can be found in one of your partitions, if you have properly installed GRUB before, it’s not difficult to find grub.efi or something similiar). Hit <strong>enter</strong> on <strong>save</strong>, then navigate to <strong>save config and exit</strong>, hit <strong>enter</strong> again.</li>
+</ul>
+<p>Your GRUB menu should show up again.</p>
 
             
                 
@@ -200,7 +203,7 @@
             <div class="post-footer-tags">
                 <span class="text-color-light text-small">TAGGED IN</span><br/>
                 
-    <a class="tag tag--primary tag--small t-link" href="/tags/Standford/">Standford</a> <a class="tag tag--primary tag--small t-link" href="/tags/Travel/">Travel</a>
+    <a class="tag tag--primary tag--small t-link" href="/tags/GRUB/">GRUB</a> <a class="tag tag--primary tag--small t-link" href="/tags/Ubuntu/">Ubuntu</a> <a class="tag tag--primary tag--small t-link" href="/tags/Windows/">Windows</a>
 
             </div>
         
@@ -209,7 +212,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2013/08/25/Sacramento/"  data-tooltip="Sacramento">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -217,7 +220,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2013/05/01/7-segment-display/" data-tooltip="7-segment display">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2013/10/08/Beautiful-cloud/" data-tooltip="Beautiful cloud">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -232,17 +235,17 @@
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://pengzhang.me/2013/08/17/Standford/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://pengzhang.me/2015/09/09/Bring-GRUB-menu-back/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://pengzhang.me/2013/08/17/Standford/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://pengzhang.me/2015/09/09/Bring-GRUB-menu-back/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://pengzhang.me/2013/08/17/Standford/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://pengzhang.me/2015/09/09/Bring-GRUB-menu-back/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -284,7 +287,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2013/08/25/Sacramento/"  data-tooltip="Sacramento">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -292,7 +295,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2013/05/01/7-segment-display/" data-tooltip="7-segment display">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2013/10/08/Beautiful-cloud/" data-tooltip="Beautiful cloud">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -307,17 +310,17 @@
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://pengzhang.me/2013/08/17/Standford/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://pengzhang.me/2015/09/09/Bring-GRUB-menu-back/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://pengzhang.me/2013/08/17/Standford/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://pengzhang.me/2015/09/09/Bring-GRUB-menu-back/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://pengzhang.me/2013/08/17/Standford/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://pengzhang.me/2015/09/09/Bring-GRUB-menu-back/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -343,17 +346,17 @@
                 <div id="share-options-bar" class="share-options-bar" data-behavior="3">
     <ul class="share-options">
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://pengzhang.me/2013/08/17/Standford/">
+            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://pengzhang.me/2015/09/09/Bring-GRUB-menu-back/">
                 <i class="fa fa-google-plus"></i><span class="">Share on Google Plus</span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://pengzhang.me/2013/08/17/Standford/">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://pengzhang.me/2015/09/09/Bring-GRUB-menu-back/">
                 <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://pengzhang.me/2013/08/17/Standford/">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://pengzhang.me/2015/09/09/Bring-GRUB-menu-back/">
                 <i class="fa fa-twitter"></i><span>Share on Twitter</span>
             </a>
         </li>
