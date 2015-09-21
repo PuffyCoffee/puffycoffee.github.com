@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://pengzhang.me/"/>
-  <updated>2015-09-10T06:08:01.000Z</updated>
+  <updated>2015-09-21T05:55:59.000Z</updated>
   <id>http://pengzhang.me/</id>
   
   <author>
@@ -13,6 +13,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Apple Hill]]></title>
+    <link href="http://pengzhang.me/2015/09/19/Apple-Hill/"/>
+    <id>http://pengzhang.me/2015/09/19/Apple-Hill/</id>
+    <published>2015-09-19T19:42:41.000Z</published>
+    <updated>2015-09-21T05:55:59.000Z</updated>
+    <content type="html"><![CDATA[<p>Decided to go outside and enjoy my Saturday after a long week, Apple Hill is the place I always want to visit. Many people are there for the love of apple and sunny fall day. The food is great there, especially candy apples.</p>
+<p><img src="http://res.cloudinary.com/peng/image/upload/v1442814047/applehill_1_xklfii.jpg" alt="Apple Hill 1"></p>
+<p><img src="http://res.cloudinary.com/peng/image/upload/v1442814768/applehill_2_pmvwul.jpg" alt="Apple Hill 2"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Decided to go outside and enjoy my Saturday after a long week, Apple Hill is the place I always want to visit. Many people are there for ]]>
+    </summary>
+    
+      <category term="Apple Hill" scheme="http://pengzhang.me/tags/Apple-Hill/"/>
+    
+      <category term="Fall" scheme="http://pengzhang.me/tags/Fall/"/>
+    
+      <category term="Photo" scheme="http://pengzhang.me/tags/Photo/"/>
+    
+      <category term="Travel" scheme="http://pengzhang.me/tags/Travel/"/>
+    
+      <category term="Life" scheme="http://pengzhang.me/categories/Life/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Bring GRUB menu back]]></title>
