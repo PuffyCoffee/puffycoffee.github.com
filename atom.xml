@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://pengzhang.me/"/>
-  <updated>2015-11-18T06:47:08.000Z</updated>
+  <updated>2016-01-13T08:03:05.000Z</updated>
   <id>http://pengzhang.me/</id>
   
   <author>
@@ -13,6 +13,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Yii2 evaluation extension]]></title>
+    <link href="http://pengzhang.me/2016/01/10/Yii-evaluation-extension/"/>
+    <id>http://pengzhang.me/2016/01/10/Yii-evaluation-extension/</id>
+    <published>2016-01-11T07:45:08.000Z</published>
+    <updated>2016-01-13T08:03:05.000Z</updated>
+    <content type="html"><![CDATA[<p>Yii2 extension, automatically generate evaluation grid.</p>
+<p><img src="https://raw.githubusercontent.com/PuffyCoffee/yii2-evaluation/master/screenshot/survey.png" alt="Survey"></p>
+<p>Use it by embedding code below in your view,</p>
+<p>Define questions, scale, sections, also set optional widget id and choose whether display additional comment box.<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">&lt;?</span>= \peng\evaluation\RadioButtonMatrix::widget([</span><br><span class="line">    <span class="string">'id'</span> =&gt; <span class="string">'self-evalution'</span>,</span><br><span class="line">    <span class="string">'questions'</span> =&gt; [<span class="string">'Strength of Mind'</span>, <span class="string">'Open Communication'</span>, <span class="string">'Leadership'</span>,</span><br><span class="line">        <span class="string">'Understanding'</span>, <span class="string">'Teamwork'</span>, <span class="string">'Integrity'</span>, <span class="string">'Originality'</span>, <span class="string">'Notification'</span>,</span><br><span class="line">    ],</span><br><span class="line">    <span class="string">'scale'</span> =&gt; [<span class="string">'min'</span> =&gt; <span class="number">0</span>, <span class="string">'max'</span> =&gt; <span class="number">5</span>],</span><br><span class="line">    <span class="string">'sections'</span> =&gt; [<span class="string">'2015 Scores'</span>, <span class="string">'2016 Scores'</span>],</span><br><span class="line">    <span class="string">'enableComment'</span> =&gt; <span class="keyword">true</span>,</span><br><span class="line">]); <span class="preprocessor">?&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>The preferred way to install this extension is through composer.</p>
+<p>Either run</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">php composer<span class="class">.phar</span> require --prefer-dist peng/yii2-evaluation <span class="string">"0.1.0"</span></span><br></pre></td></tr></table></figure>
+<p>or add</p>
+<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"peng/yii2-evaluation"</span>: <span class="string">"0.1.0"</span></span><br></pre></td></tr></table></figure>
+<p>to the require section of your composer.json file.</p>
+<p>Fork it on<br><a href="https://github.com/PuffyCoffee/yii2-evaluation" target="_blank" rel="external">Github</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Yii2 extension, automatically generate evaluation grid.</p>
+<p><img src="https://raw.githubusercontent.com/PuffyCoffee/yii2-evaluation/ma]]>
+    </summary>
+    
+      <category term="Widgets" scheme="http://pengzhang.me/tags/Widgets/"/>
+    
+      <category term="Yii2" scheme="http://pengzhang.me/tags/Yii2/"/>
+    
+      <category term="Programming" scheme="http://pengzhang.me/categories/Programming/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Fall 2015]]></title>
@@ -42,7 +73,7 @@
     <link href="http://pengzhang.me/2015/09/19/Apple-Hill/"/>
     <id>http://pengzhang.me/2015/09/19/Apple-Hill/</id>
     <published>2015-09-19T19:42:41.000Z</published>
-    <updated>2015-09-21T05:55:59.000Z</updated>
+    <updated>2015-09-21T06:56:00.000Z</updated>
     <content type="html"><![CDATA[<p>Decided to go outside and enjoy my Saturday after a long week, Apple Hill is the place I always want to visit. Many people are there for the love of apple and sunny fall day. The food is great there, especially candy apples.</p>
 <p><img src="http://res.cloudinary.com/peng/image/upload/v1442814047/applehill_1_xklfii.jpg" alt="Apple Hill 1"></p>
 <p><img src="http://res.cloudinary.com/peng/image/upload/v1442814768/applehill_2_pmvwul.jpg" alt="Apple Hill 2"></p>
@@ -68,7 +99,7 @@
     <link href="http://pengzhang.me/2015/09/09/Bring-GRUB-menu-back/"/>
     <id>http://pengzhang.me/2015/09/09/Bring-GRUB-menu-back/</id>
     <published>2015-09-10T05:24:50.000Z</published>
-    <updated>2015-09-10T06:08:01.000Z</updated>
+    <updated>2015-09-10T07:08:02.000Z</updated>
     <content type="html"><![CDATA[<p>I installed Ubuntu over Windows 8 on my laptop (<em>ASUS UX305</em>), never had any problems until Windows “secretly” updated itself and probably allowed ASUS to updates <strong>UEFI</strong>, GRUB menu disappeared when I tried to boot into Ubuntu tonight. I searched on Google and figured out why my GRUB boot menu disappeared on me, however, there were not too many easy solutions. Some people suggested reinstall Windows/Ubuntu, some people suggested repair boot via original USB drive that you used to install guest OS. What I need is to keep my Ubuntu, simply because I have too many projects on it, and I cannot find my bootable USB stick.</p>
 <p>The Simple way I found to solve this problem is:</p>
 <ul>
@@ -97,7 +128,7 @@
     <link href="http://pengzhang.me/2013/10/08/Beautiful-cloud/"/>
     <id>http://pengzhang.me/2013/10/08/Beautiful-cloud/</id>
     <published>2013-10-08T19:39:06.000Z</published>
-    <updated>2015-09-06T19:54:46.000Z</updated>
+    <updated>2015-09-06T20:54:46.000Z</updated>
     <content type="html"><![CDATA[<p><img src="http://res.cloudinary.com/peng/image/upload/v1441568312/burningcloud_ws4umc.jpg" alt="cloud"></p>
 ]]></content>
     <summary type="html">
@@ -118,7 +149,7 @@
     <link href="http://pengzhang.me/2013/09/27/Fall-2013/"/>
     <id>http://pengzhang.me/2013/09/27/Fall-2013/</id>
     <published>2013-09-27T20:38:52.000Z</published>
-    <updated>2015-09-06T19:46:26.000Z</updated>
+    <updated>2015-09-06T20:46:26.000Z</updated>
     <content type="html"><![CDATA[<p>A walk in the afternoon at El Dorado Hills.</p>
 <p><img src="http://res.cloudinary.com/peng/image/upload/v1441568317/fall2013_hm0hgf.jpg" alt="Fall"></p>
 ]]></content>
@@ -142,7 +173,7 @@
     <link href="http://pengzhang.me/2013/09/01/Sunset/"/>
     <id>http://pengzhang.me/2013/09/01/Sunset/</id>
     <published>2013-09-02T05:37:22.000Z</published>
-    <updated>2015-09-06T19:48:54.000Z</updated>
+    <updated>2015-09-06T20:48:54.000Z</updated>
     <content type="html"><![CDATA[<p>After spending afternoon in <a href="http://barnesandnoble.com" target="_blank" rel="external">Barnes &amp; Noble</a>, I happened to catch this beautiful sunset in North Sacramento.</p>
 <p><img src="http://res.cloudinary.com/peng/image/upload/v1440999626/sunset_w6nh0i.jpg" alt="Sunset"></p>
 ]]></content>
@@ -163,7 +194,7 @@
     <link href="http://pengzhang.me/2013/08/25/Sacramento/"/>
     <id>http://pengzhang.me/2013/08/25/Sacramento/</id>
     <published>2013-08-26T05:20:40.000Z</published>
-    <updated>2015-09-06T19:43:22.000Z</updated>
+    <updated>2015-09-06T20:43:22.000Z</updated>
     <content type="html"><![CDATA[<p>My first Sacramento Public Library visit.</p>
 <p><img src="http://res.cloudinary.com/peng/image/upload/v1440998208/Sac1_uxavx3.jpg" alt="Sacramento Downtown"></p>
 <p><img src="http://res.cloudinary.com/peng/image/upload/v1440998207/Sac2_qrugdj.jpg" alt="Sacramento Downtown_2"></p>
@@ -184,7 +215,7 @@
     <link href="http://pengzhang.me/2013/08/17/Standford/"/>
     <id>http://pengzhang.me/2013/08/17/Standford/</id>
     <published>2013-08-17T18:17:33.000Z</published>
-    <updated>2015-09-06T19:43:22.000Z</updated>
+    <updated>2015-09-06T20:43:22.000Z</updated>
     <content type="html"><![CDATA[<p>Took a short trip to Standford University, beautiful campus, beautiful day.</p>
 <p><img src="http://res.cloudinary.com/peng/image/upload/v1440994568/stanford_d0rcft.jpg" alt="Standford_1"></p>
 <p><img src="http://res.cloudinary.com/peng/image/upload/v1440994568/stanford2_otpl7n.jpg" alt="Standford_2"></p>
@@ -207,7 +238,7 @@
     <link href="http://pengzhang.me/2013/05/01/7-segment-display/"/>
     <id>http://pengzhang.me/2013/05/01/7-segment-display/</id>
     <published>2013-05-02T04:29:21.000Z</published>
-    <updated>2015-09-06T19:43:22.000Z</updated>
+    <updated>2015-09-06T20:43:22.000Z</updated>
     <content type="html"><![CDATA[<p>Seven-segment display is a simulation of classic electronic display device, the concept of seven-segment display(SSD) is very easy to understand, each segment is assigned a unique number A-G, when that segment is lighted up using “1” to represent. e.g., “1111110” means 0 is displaying.</p>
 <p>Seven-segmanet display</p>
 <table>
@@ -350,7 +381,7 @@
     <link href="http://pengzhang.me/2013/01/26/gauge/"/>
     <id>http://pengzhang.me/2013/01/26/gauge/</id>
     <published>2013-01-26T20:09:21.000Z</published>
-    <updated>2015-09-06T19:43:22.000Z</updated>
+    <updated>2015-09-06T20:43:22.000Z</updated>
     <content type="html"><![CDATA[<p>Little gauge chart which can be rendered both horizontally and vertically, it can be used to indicate things like CPU usage and memory usage. It is light weight and SVG.</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> led = Raphael(<span class="string">'gauge'</span>, <span class="number">100</span>, <span class="number">300</span>).ledGauge(&#123;</span><br><span class="line">    div: <span class="built_in">document</span>.getElementById(<span class="string">'gauge'</span>),</span><br><span class="line">    min: <span class="number">0</span>,</span><br><span class="line">    max: <span class="number">100</span>,</span><br><span class="line">    title: <span class="string">'CPU Usage'</span>,</span><br><span class="line">    unit: <span class="string">'%'</span>,</span><br><span class="line">    direction: <span class="number">0</span>,</span><br><span class="line">    margin: &#123;</span><br><span class="line">        left: <span class="string">'30px'</span>,</span><br><span class="line">        right: <span class="string">'30px'</span>,</span><br><span class="line">        top: <span class="string">'40px'</span>,</span><br><span class="line">        bottom: <span class="string">'40px'</span></span><br><span class="line">    &#125;,</span><br><span class="line">    thresholds: &#123;</span><br><span class="line">        values: [<span class="number">50</span>, <span class="number">80</span>, <span class="number">100</span>],</span><br><span class="line">        colors: [<span class="string">'#00ff00'</span>, <span class="string">'#f0f000'</span>, <span class="string">'#ff0000'</span>]</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br><span class="line">led.setTo(<span class="number">99</span>);</span><br></pre></td></tr></table></figure>
 <p>Download this gauge chart at <a href="https://github.com/PuffyCoffee/LEDGauge" target="_blank" rel="external">Github</a></p>
@@ -375,7 +406,7 @@
     <link href="http://pengzhang.me/2012/12/01/Dial-gauge/"/>
     <id>http://pengzhang.me/2012/12/01/Dial-gauge/</id>
     <published>2012-12-02T06:39:40.000Z</published>
-    <updated>2015-09-06T19:43:22.000Z</updated>
+    <updated>2015-09-06T20:43:22.000Z</updated>
     <content type="html"><![CDATA[<p>Dial gauge is a lovely widget powered by <a href="http://raphaeljs.com/" target="_blank" rel="external">Raphael</a>, it can be used as a value indicator on web page. Thanks to <a href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics" target="_blank" rel="external">SVG</a> and Raphael, Dial gauge looks gorgeous on high resolution devices such as MacBook Pro with Retina display and iphone4+. Deploying dial gauge only takes few lines of code.</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> dial = Raphael(<span class="string">'gauge'</span>, <span class="number">370</span>, <span class="number">370</span>).dialGauge(&#123;</span><br><span class="line">    div: <span class="built_in">document</span>.getElementById(<span class="string">'gauge'</span>),</span><br><span class="line">    unit: <span class="string">'ms'</span>,</span><br><span class="line">    min: <span class="number">0</span>,</span><br><span class="line">    max: <span class="number">500</span>,</span><br><span class="line">    skin: <span class="string">'CRISP_WHITE'</span>,</span><br><span class="line">    thresholds: &#123;</span><br><span class="line">        values: [<span class="number">250</span>, <span class="number">400</span>, <span class="number">500</span>],</span><br><span class="line">        colors: [<span class="string">'#2ffff2f'</span>, <span class="string">'#ffff63'</span>, <span class="string">'#ff3939'</span>]</span><br><span class="line">    &#125;,</span><br><span class="line">    alert: <span class="number">400</span></span><br><span class="line">&#125;);</span><br><span class="line">dial.instance.pointAt(<span class="number">300</span>);</span><br><span class="line">dial.instance.changeSkin(<span class="string">"CLEAN_BLACK"</span>);</span><br></pre></td></tr></table></figure>
 <p>Check out Dial gauge <a href="https://github.com/PuffyCoffee/DialGauge" target="_blank" rel="external">here</a>.</p>
@@ -403,7 +434,7 @@
     <link href="http://pengzhang.me/2012/10/28/3D-Pie-Chart/"/>
     <id>http://pengzhang.me/2012/10/28/3D-Pie-Chart/</id>
     <published>2012-10-28T20:02:03.000Z</published>
-    <updated>2015-09-06T19:43:22.000Z</updated>
+    <updated>2015-09-06T20:43:22.000Z</updated>
     <content type="html"><![CDATA[<p>An easy to use pie/doughnut chart.</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Raphael(<span class="string">'canvas'</span>, <span class="number">700</span>, <span class="number">500</span>).pie(&#123;</span><br><span class="line">    values: [<span class="number">87</span>, <span class="number">134</span>, <span class="number">83</span>, <span class="number">23</span>, <span class="number">98</span>],</span><br><span class="line">    colors: [<span class="string">"#00ff00"</span>, <span class="string">"#ff0011"</span>, <span class="string">"#faf600"</span>, <span class="string">"#0079fa"</span>, <span class="string">"#fa8500"</span>],</span><br><span class="line">    tooltip: [<span class="string">"January - 87"</span>, <span class="string">"Feburary - 136"</span>, <span class="string">"March - 77"</span>, <span class="string">"April - 120"</span>,<span class="string">"May - 34"</span>],</span><br><span class="line">    doughnut: <span class="literal">true</span>,</span><br><span class="line">    radius: <span class="number">200</span>,</span><br><span class="line">    chartTitle: <span class="string">"Monthly Payment"</span></span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
 <p>Find more details on <a href="https://github.com/PuffyCoffee/3D-Pie-chart" target="_blank" rel="external">Github</a></p>
@@ -430,7 +461,7 @@
     <link href="http://pengzhang.me/2012/10/20/Whiteboard/"/>
     <id>http://pengzhang.me/2012/10/20/Whiteboard/</id>
     <published>2012-10-20T19:59:41.000Z</published>
-    <updated>2015-09-06T19:43:22.000Z</updated>
+    <updated>2015-09-06T20:43:22.000Z</updated>
     <content type="html"><![CDATA[<p>This small vector based widgets is a Raphael plugin, it helps you draw stuff on your page.</p>
 <p>Use it by including the code below in your JavaScript.</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> paper = Raphael(<span class="string">'wrapper'</span>,&#123;</span><br><span class="line">	width:<span class="string">"100%"</span>,</span><br><span class="line">	height:<span class="string">"100%"</span></span><br><span class="line">&#125;);</span><br><span class="line">paper.editing = <span class="literal">true</span>;</span><br></pre></td></tr></table></figure>
