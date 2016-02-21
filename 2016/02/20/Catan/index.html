@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Peng Zhang">
-    <title>Yii2 evaluation extension - Peng Zhang</title>
+    <title>Catan - Peng Zhang</title>
     <meta name="author" content="Peng Zhang">
     
         <link rel="icon" href="/assets/images/favicon.ico">
@@ -14,26 +14,17 @@
     
         <link rel="alternative" type="application/atom+xml" title="RSS" href="/atom.xml">
     
-    <meta name="description" content="Yii2 extension, automatically generate evaluation grid.
-
-Use it by embedding code below in your view,
-Define questions, scale, sections, also set optional widget id and choose whether display addition">
+    <meta name="description" content="It is our Catan time!">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="Yii2 evaluation extension">
-<meta property="og:url" content="http://pengzhang.me/2016/01/10/Yii-evaluation-extension/index.html">
+<meta property="og:title" content="Catan">
+<meta property="og:url" content="http://pengzhang.me/2016/02/20/Catan/index.html">
 <meta property="og:site_name" content="Peng Zhang">
-<meta property="og:description" content="Yii2 extension, automatically generate evaluation grid.
-
-Use it by embedding code below in your view,
-Define questions, scale, sections, also set optional widget id and choose whether display addition">
-<meta property="og:image" content="https://raw.githubusercontent.com/PuffyCoffee/yii2-evaluation/master/screenshot/survey.png">
-<meta property="og:updated_time" content="2016-01-13T08:03:05.000Z">
+<meta property="og:description" content="It is our Catan time!">
+<meta property="og:image" content="http://res.cloudinary.com/peng/image/upload/v1456023521/catan_ccdlqn.jpg">
+<meta property="og:updated_time" content="2016-02-21T03:05:19.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Yii2 evaluation extension">
-<meta name="twitter:description" content="Yii2 extension, automatically generate evaluation grid.
-
-Use it by embedding code below in your view,
-Define questions, scale, sections, also set optional widget id and choose whether display addition">
+<meta name="twitter:title" content="Catan">
+<meta name="twitter:description" content="It is our Catan time!">
 <meta name="twitter:creator" content="@risusmentum">
     
     
@@ -172,19 +163,19 @@ Define questions, scale, sections, also set optional widget id and choose whethe
         <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title" itemprop="headline">
-            Yii2 evaluation extension
+            Catan
         </h1>
     
     <div class="post-meta">
-    <time itemprop="datePublished" content="Sun Jan 10 2016 23:45:08 GMT-0800">
+    <time itemprop="datePublished" content="Sat Feb 20 2016 19:01:00 GMT-0800">
 	
-		    Jan 10, 2016
+		    Feb 20, 2016
     	
     </time>
     
         <span>in </span>
         
-    <a class="category-link" href="/categories/Programming/">Programming</a>
+    <a class="category-link" href="/categories/Life/">Life</a>
 
 
     
@@ -193,17 +184,8 @@ Define questions, scale, sections, also set optional widget id and choose whethe
     
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <p>Yii2 extension, automatically generate evaluation grid.</p>
-<p><img src="https://raw.githubusercontent.com/PuffyCoffee/yii2-evaluation/master/screenshot/survey.png" alt="Survey"></p>
-<p>Use it by embedding code below in your view,</p>
-<p>Define questions, scale, sections, also set optional widget id and choose whether display additional comment box.<br><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">&lt;?</span>= \peng\evaluation\RadioButtonMatrix::widget([</span><br><span class="line">    <span class="string">'id'</span> =&gt; <span class="string">'self-evalution'</span>,</span><br><span class="line">    <span class="string">'questions'</span> =&gt; [<span class="string">'Strength of Mind'</span>, <span class="string">'Open Communication'</span>, <span class="string">'Leadership'</span>,</span><br><span class="line">        <span class="string">'Understanding'</span>, <span class="string">'Teamwork'</span>, <span class="string">'Integrity'</span>, <span class="string">'Originality'</span>, <span class="string">'Notification'</span>,</span><br><span class="line">    ],</span><br><span class="line">    <span class="string">'scale'</span> =&gt; [<span class="string">'min'</span> =&gt; <span class="number">0</span>, <span class="string">'max'</span> =&gt; <span class="number">5</span>],</span><br><span class="line">    <span class="string">'sections'</span> =&gt; [<span class="string">'2015 Scores'</span>, <span class="string">'2016 Scores'</span>],</span><br><span class="line">    <span class="string">'enableComment'</span> =&gt; <span class="keyword">true</span>,</span><br><span class="line">]); <span class="preprocessor">?&gt;</span></span><br></pre></td></tr></table></figure></p>
-<p>The preferred way to install this extension is through composer.</p>
-<p>Either run</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">php composer<span class="class">.phar</span> require --prefer-dist peng/yii2-evaluation <span class="string">"0.1.0"</span></span><br></pre></td></tr></table></figure>
-<p>or add</p>
-<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"peng/yii2-evaluation"</span>: <span class="string">"0.1.0"</span></span><br></pre></td></tr></table></figure>
-<p>to the require section of your composer.json file.</p>
-<p>Fork it on<br><a href="https://github.com/PuffyCoffee/yii2-evaluation" target="_blank" rel="external">Github</a></p>
+            <p>It is our <a href="http://www.catan.com" target="_blank" rel="external">Catan</a> time!</p>
+<p><img src="http://res.cloudinary.com/peng/image/upload/v1456023521/catan_ccdlqn.jpg" alt="Game"></p>
 
             
                 
@@ -216,7 +198,7 @@ Define questions, scale, sections, also set optional widget id and choose whethe
             <div class="post-footer-tags">
                 <span class="text-color-light text-small">TAGGED IN</span><br/>
                 
-    <a class="tag tag--primary tag--small t-link" href="/tags/Widgets/">Widgets</a> <a class="tag tag--primary tag--small t-link" href="/tags/Yii2/">Yii2</a>
+    <a class="tag tag--primary tag--small t-link" href="/tags/Catan/">Catan</a>
 
             </div>
         
@@ -225,7 +207,7 @@ Define questions, scale, sections, also set optional widget id and choose whethe
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/02/20/Catan/"  data-tooltip="Catan">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -233,7 +215,7 @@ Define questions, scale, sections, also set optional widget id and choose whethe
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2015/11/17/Fall-2015/" data-tooltip="Fall 2015">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/01/10/Yii-evaluation-extension/" data-tooltip="Yii2 evaluation extension">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -248,17 +230,17 @@ Define questions, scale, sections, also set optional widget id and choose whethe
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://pengzhang.me/2016/01/10/Yii-evaluation-extension/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://pengzhang.me/2016/02/20/Catan/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://pengzhang.me/2016/01/10/Yii-evaluation-extension/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://pengzhang.me/2016/02/20/Catan/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://pengzhang.me/2016/01/10/Yii-evaluation-extension/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://pengzhang.me/2016/02/20/Catan/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -300,7 +282,7 @@ Define questions, scale, sections, also set optional widget id and choose whethe
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/02/20/Catan/"  data-tooltip="Catan">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -308,7 +290,7 @@ Define questions, scale, sections, also set optional widget id and choose whethe
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2015/11/17/Fall-2015/" data-tooltip="Fall 2015">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2016/01/10/Yii-evaluation-extension/" data-tooltip="Yii2 evaluation extension">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -323,17 +305,17 @@ Define questions, scale, sections, also set optional widget id and choose whethe
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://pengzhang.me/2016/01/10/Yii-evaluation-extension/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://pengzhang.me/2016/02/20/Catan/">
                 <i class="fa fa-google-plus"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://pengzhang.me/2016/01/10/Yii-evaluation-extension/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://pengzhang.me/2016/02/20/Catan/">
                 <i class="fa fa-facebook-official"></i>
             </a>
         </li>
         <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://pengzhang.me/2016/01/10/Yii-evaluation-extension/">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://pengzhang.me/2016/02/20/Catan/">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
@@ -359,17 +341,17 @@ Define questions, scale, sections, also set optional widget id and choose whethe
                 <div id="share-options-bar" class="share-options-bar" data-behavior="3">
     <ul class="share-options">
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://pengzhang.me/2016/01/10/Yii-evaluation-extension/">
+            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://pengzhang.me/2016/02/20/Catan/">
                 <i class="fa fa-google-plus"></i><span class="">Share on Google Plus</span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://pengzhang.me/2016/01/10/Yii-evaluation-extension/">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://pengzhang.me/2016/02/20/Catan/">
                 <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
             </a>
         </li>
         <li class="share-option">
-            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://pengzhang.me/2016/01/10/Yii-evaluation-extension/">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://pengzhang.me/2016/02/20/Catan/">
                 <i class="fa fa-twitter"></i><span>Share on Twitter</span>
             </a>
         </li>
